@@ -1,5 +1,4 @@
 import { createGlobalTheme } from '@vanilla-extract/css';
-import { calc } from '@vanilla-extract/css-utils';
 
 const BASE_SPACE = '8px';
 
@@ -29,6 +28,3 @@ export const theme = createGlobalTheme(':root', {
     base: BASE_SPACE,
   },
 });
-
-export const getSpace = (amount: number) =>
-  calc.multiply(theme.space.base, amount);

@@ -1,5 +1,5 @@
 {
-  "name": "oldmodern-ui",
+  "name": "@oldmodern/ui",
   "files": [
     "dist"
   ],
@@ -42,5 +42,6 @@
     "storybook-builder-vite": "^0.1.13",
     "typescript": "^4.5.4",
     "vite": "^2.7.12"
-  }
+  },
+  "packageManager": "yarn@3.1.1"
 }

@@ -1,6 +1,6 @@
 import { style, styleVariants } from '@vanilla-extract/css';
-import { getSpace } from '.';
 import { theme } from './theme.css';
+import { getSpace } from './utils';
 
 const base = style({
   height: 40,
