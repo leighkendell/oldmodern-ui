@@ -1,3 +1,16 @@
+# v0.1.7 (Sun Jan 16 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of github.com:leighkendell/oldmodern-ui (leigh@leighkendell.com)
+- Add types path (leigh@leighkendell.com)
+
+#### Authors: 1
+
+- Leigh Kendell (leigh@leighkendell.com)
+
+---
+
 # v0.1.6 (Sun Jan 16 2022)
 
 #### ⚠️ Pushed to `main`
