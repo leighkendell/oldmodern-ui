@@ -58,7 +58,8 @@
     "vite-dts": "^1.0.4"
   },
   "peerDependencies": {
-    "react": "^17.0.2"
+    "react": "^17.0.2",
+    "@vanilla-extract/css-utils": "^0.1.2"
   },
   "packageManager": "yarn@3.1.1",
   "types": "./src/oldmodern-ui.d.ts"
