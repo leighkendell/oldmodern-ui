@@ -13,6 +13,7 @@
   "style": "style.css",
   "main": "./dist/oldmodern-ui.umd.js",
   "module": "./dist/oldmodern-ui.es.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/oldmodern-ui.es.js",
