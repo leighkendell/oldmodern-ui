@@ -1912,6 +1912,7 @@ __metadata:
     "@vanilla-extract/vite-plugin": ^3.1.2
     "@vitejs/plugin-react": ^1.1.4
     babel-loader: ^8.2.3
+    chromatic: ^6.3.4
     normalize.css: ^8.0.1
     prettier: ^2.5.1
     react: ^17.0.2
@@ -4943,6 +4944,17 @@ __metadata:
   version: 2.0.0
   resolution: "chownr@npm:2.0.0"
   checksum: c57cf9dd0791e2f18a5ee9c1a299ae6e801ff58fee96dc8bfd0dcb4738a6ce58dd252a3605b1c93c6418fe4f9d5093b28ffbf4d66648cb2a9c67eaef9679be2f
+  languageName: node
+  linkType: hard
+
+"chromatic@npm:^6.3.4":
+  version: 6.3.4
+  resolution: "chromatic@npm:6.3.4"
+  bin:
+    chroma: bin/main.cjs
+    chromatic: bin/main.cjs
+    chromatic-cli: bin/main.cjs
+  checksum: 7c5fd6e8f5f7f1e344f958be5c1f5a7c1730c1e1c12fcf57102ed2e8b58d16a2e8623452b7651c800e0bde326de1aef3dce078f9b3d5bfdce22144d0d4837617
   languageName: node
   linkType: hard
 
