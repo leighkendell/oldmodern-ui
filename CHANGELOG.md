@@ -1,3 +1,15 @@
+# v0.1.6 (Sun Jan 16 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Update type generation (leigh@leighkendell.com)
+
+#### Authors: 1
+
+- Leigh Kendell (leigh@leighkendell.com)
+
+---
+
 # v0.1.5 (Sun Jan 16 2022)
 
 #### ⚠️ Pushed to `main`
