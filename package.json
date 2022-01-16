@@ -4,6 +4,9 @@
     "name": "Leigh Kendell",
     "email": "npm@leighkendell.com"
   },
+  "repository": {
+    "url": "https://github.com/leighkendell/oldmodern-ui"
+  },
   "files": [
     "dist"
   ],

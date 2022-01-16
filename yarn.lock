@@ -2203,6 +2203,8 @@ __metadata:
     the-new-css-reset: ^1.4.5
     typescript: ^4.5.4
     vite: ^2.7.12
+  peerDependencies:
+    react: ^17.0.2
   languageName: unknown
   linkType: soft
 
