@@ -1,3 +1,17 @@
+# v0.1.2 (Sun Jan 16 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Add repo link (leigh@leighkendell.com)
+- Merge branch 'main' of github.com:leighkendell/oldmodern-ui (leigh@leighkendell.com)
+- Add react to peer deps (leigh@leighkendell.com)
+
+#### Authors: 1
+
+- Leigh Kendell (leigh@leighkendell.com)
+
+---
+
 # v0.1.1 (Sun Jan 16 2022)
 
 #### ⚠️ Pushed to `main`
