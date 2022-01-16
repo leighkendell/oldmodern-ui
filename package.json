@@ -17,7 +17,8 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "release": "auto shipit --base-branch=main"
   },
   "dependencies": {
     "@vanilla-extract/css": "^1.6.8",
