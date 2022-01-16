@@ -10,7 +10,7 @@
   "files": [
     "dist"
   ],
-  "style": "/dist/style.css",
+  "style": "./dist/style.css",
   "main": "./dist/oldmodern-ui.umd.js",
   "module": "./dist/oldmodern-ui.es.js",
   "types": "./dist/index.d.ts",
@@ -18,7 +18,8 @@
     ".": {
       "import": "./dist/oldmodern-ui.es.js",
       "require": "./dist/oldmodern-ui.umd.js"
-    }
+    },
+    "./dist/style.css": "./dist/style.css"
   },
   "version": "0.1.8",
   "scripts": {
