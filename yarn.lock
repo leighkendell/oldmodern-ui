@@ -2232,6 +2232,7 @@ __metadata:
     vite: ^2.7.12
     vite-dts: ^1.0.4
   peerDependencies:
+    "@vanilla-extract/css-utils": ^0.1.2
     react: ^17.0.2
   languageName: unknown
   linkType: soft
