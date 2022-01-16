@@ -8,10 +8,9 @@
     "url": "https://github.com/leighkendell/oldmodern-ui"
   },
   "files": [
-    "dist",
-    "dist/style.css"
+    "dist"
   ],
-  "style": "style.css",
+  "style": "/dist/style.css",
   "main": "./dist/oldmodern-ui.umd.js",
   "module": "./dist/oldmodern-ui.es.js",
   "types": "./dist/index.d.ts",
