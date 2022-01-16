@@ -1661,6 +1661,31 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@capsizecss/core@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "@capsizecss/core@npm:3.0.0"
+  checksum: a3332919860573f24d14107bf070d4d9da304b5e22c461bbd3c0b14912a4c6cca6d9a3a6a02b2d8d19858eb709d1efa7eae8ff3c6d58440d40faa19b9b27debe
+  languageName: node
+  linkType: hard
+
+"@capsizecss/metrics@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "@capsizecss/metrics@npm:0.1.0"
+  checksum: d1d8238aad30260e9d24fcecbc572ddf25ef07b8227dd9e24fb37ebb58dcf59faa6181978157adb9dbcb89a58b564680659b7a2f122762925f60c2959b9c461d
+  languageName: node
+  linkType: hard
+
+"@capsizecss/vanilla-extract@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@capsizecss/vanilla-extract@npm:1.0.0"
+  dependencies:
+    "@capsizecss/core": ^3.0.0
+  peerDependencies:
+    "@vanilla-extract/css": ^1.2.1
+  checksum: 895c342dba9cf2882fc98ee6bd53b5175258a085255597964413fb0c7abab77489620cbd8ca2037c524a6be77d18526602194fe73517dad796136e05a91b211f
+  languageName: node
+  linkType: hard
+
 "@cnakazawa/watch@npm:^1.0.3":
   version: 1.0.4
   resolution: "@cnakazawa/watch@npm:1.0.4"
@@ -2181,6 +2206,8 @@ __metadata:
   resolution: "@oldmodern/ui@workspace:."
   dependencies:
     "@babel/core": ^7.16.7
+    "@capsizecss/metrics": ^0.1.0
+    "@capsizecss/vanilla-extract": ^1.0.0
     "@storybook/addon-a11y": ^6.4.13
     "@storybook/addon-actions": ^6.4.13
     "@storybook/addon-essentials": ^6.4.13
@@ -2203,6 +2230,7 @@ __metadata:
     the-new-css-reset: ^1.4.5
     typescript: ^4.5.4
     vite: ^2.7.12
+    vite-dts: ^1.0.4
   peerDependencies:
     react: ^17.0.2
   languageName: unknown
@@ -9606,6 +9634,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"load-json-file@npm:^6.2.0":
+  version: 6.2.0
+  resolution: "load-json-file@npm:6.2.0"
+  dependencies:
+    graceful-fs: ^4.1.15
+    parse-json: ^5.0.0
+    strip-bom: ^4.0.0
+    type-fest: ^0.6.0
+  checksum: 4429e430ebb99375fc7cd936348e4f7ba729486080ced4272091c1e386a7f5f738ea3337d8ffd4b01c2f5bc3ddde92f2c780045b66838fe98bdb79f901884643
+  languageName: node
+  linkType: hard
+
 "loader-runner@npm:^2.4.0":
   version: 2.4.0
   resolution: "loader-runner@npm:2.4.0"
@@ -13266,6 +13306,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"strip-bom@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "strip-bom@npm:4.0.0"
+  checksum: 9dbcfbaf503c57c06af15fe2c8176fb1bf3af5ff65003851a102749f875a6dbe0ab3b30115eccf6e805e9d756830d3e40ec508b62b3f1ddf3761a20ebe29d3f3
+  languageName: node
+  linkType: hard
+
 "strip-eof@npm:^1.0.0":
   version: 1.0.0
   resolution: "strip-eof@npm:1.0.0"
@@ -14298,6 +14345,17 @@ __metadata:
     unist-util-stringify-position: ^2.0.0
     vfile-message: ^2.0.0
   checksum: ee5726e10d170472cde778fc22e0f7499caa096eb85babea5d0ce0941455b721037ee1c9e6ae506ca2803250acd313d0f464328ead0b55cfe7cb6315f1b462d6
+  languageName: node
+  linkType: hard
+
+"vite-dts@npm:^1.0.4":
+  version: 1.0.4
+  resolution: "vite-dts@npm:1.0.4"
+  dependencies:
+    load-json-file: ^6.2.0
+  peerDependencies:
+    vite: ">2.0.0-0"
+  checksum: cd22cfee42ef49a9f190012a87f70493fdd47d36c600a0fde5c5c56d6d446f98160619e97660f6812fb43c6adc2d5d6b4aa2052faf3ee05a81ce2f9e0b4c492f
   languageName: node
   linkType: hard
 

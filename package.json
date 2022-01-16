@@ -28,6 +28,8 @@
     "release": "auto shipit --base-branch=main"
   },
   "dependencies": {
+    "@capsizecss/metrics": "^0.1.0",
+    "@capsizecss/vanilla-extract": "^1.0.0",
     "@vanilla-extract/css": "^1.6.8",
     "@vanilla-extract/css-utils": "^0.1.2",
     "normalize.css": "^8.0.1",
@@ -52,10 +54,12 @@
     "prettier": "^2.5.1",
     "storybook-builder-vite": "^0.1.13",
     "typescript": "^4.5.4",
-    "vite": "^2.7.12"
+    "vite": "^2.7.12",
+    "vite-dts": "^1.0.4"
   },
   "peerDependencies": {
     "react": "^17.0.2"
   },
-  "packageManager": "yarn@3.1.1"
+  "packageManager": "yarn@3.1.1",
+  "types": "./src/oldmodern-ui.d.ts"
 }

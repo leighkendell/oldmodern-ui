@@ -1,6 +1,14 @@
 import { style, styleVariants } from '@vanilla-extract/css';
 import { theme } from './theme.css';
 import { getSpace } from './utils';
+import { createTextStyle } from '@capsizecss/vanilla-extract';
+import fontMetrics from '@capsizecss/metrics/dMSans';
+
+const text = createTextStyle({
+  fontSize: 14,
+  leading: 16,
+  fontMetrics,
+});
 
 const base = style({
   height: 40,
@@ -9,9 +17,9 @@ const base = style({
   borderRadius: theme.radii.base,
   fontWeight: theme.fontWeights.bold,
   textTransform: 'uppercase',
-  fontSize: theme.fontSizes.medium,
   cursor: 'pointer',
   border: '2px solid transparent',
+  textAlign: 'center',
   ':hover': {
     color: theme.colors.white,
     background: theme.colors.black,
@@ -21,6 +29,7 @@ const base = style({
 export const buttonStyles = styleVariants({
   filled: [
     base,
+    text,
     {
       background: theme.colors.black,
       color: theme.colors.white,
@@ -31,6 +40,7 @@ export const buttonStyles = styleVariants({
   ],
   outline: [
     base,
+    text,
     {
       color: theme.colors.black,
       borderColor: theme.colors.black,
@@ -38,6 +48,7 @@ export const buttonStyles = styleVariants({
   ],
   outlineLight: [
     base,
+    text,
     {
       color: theme.colors.white,
       borderColor: theme.colors.white,
