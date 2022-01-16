@@ -5,6 +5,7 @@ dist-ssr
 *.local
 storybook-static
 *.log
+.envrc
 
 # Yarn
 .yarn/*

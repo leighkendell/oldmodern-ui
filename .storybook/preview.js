@@ -10,4 +10,11 @@ export const parameters = {
       date: /Date$/,
     },
   },
+  // Storybook a11y addon configuration
+  a11y: {
+    // the target DOM element
+    element: '#root',
+    // sets the execution mode for the addon
+    manual: false,
+  },
 };
