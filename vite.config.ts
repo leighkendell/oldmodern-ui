@@ -2,11 +2,11 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { vanillaExtractPlugin } from '@vanilla-extract/vite-plugin';
 import path from 'path';
-import dts from 'vite-dts';
+import dts from 'vite-plugin-dts';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), dts(), vanillaExtractPlugin()],
+  plugins: [dts({ insertTypesEntry: true }), react(), vanillaExtractPlugin()],
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/index.ts'),
