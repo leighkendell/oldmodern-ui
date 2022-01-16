@@ -21,7 +21,7 @@
     },
     "./dist/style.css": "./dist/style.css"
   },
-  "version": "0.1.9",
+  "version": "0.1.10",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
