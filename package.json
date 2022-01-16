@@ -1,5 +1,9 @@
 {
   "name": "@oldmodern/ui",
+  "author": {
+    "name": "Leigh Kendell",
+    "email": "npm@leighkendell.com"
+  },
   "files": [
     "dist"
   ],
