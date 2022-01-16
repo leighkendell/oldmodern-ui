@@ -10,6 +10,7 @@
   "files": [
     "dist"
   ],
+  "style": "style.css",
   "main": "./dist/oldmodern-ui.umd.js",
   "module": "./dist/oldmodern-ui.es.js",
   "exports": {
