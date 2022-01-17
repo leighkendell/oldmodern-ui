@@ -1,3 +1,15 @@
+# v0.1.11 (Mon Jan 17 2022)
+
+#### 🐛 Bug Fix
+
+- Add text component [#1](https://github.com/leighkendell/oldmodern-ui/pull/1) (leigh@leighkendell.com)
+
+#### Authors: 1
+
+- Leigh Kendell ([@leighkendell](https://github.com/leighkendell))
+
+---
+
 # v0.1.10 (Sun Jan 16 2022)
 
 #### ⚠️ Pushed to `main`
