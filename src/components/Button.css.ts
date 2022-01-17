@@ -1,8 +1,8 @@
 import { style, styleVariants } from '@vanilla-extract/css';
-import { theme } from './theme.css';
-import { getSpace } from './utils';
+import { getSpace } from '../utils';
 import { createTextStyle } from '@capsizecss/vanilla-extract';
 import fontMetrics from '@capsizecss/metrics/dMSans';
+import { theme } from '../theme.css';
 
 const text = createTextStyle({
   fontSize: 14,
@@ -15,6 +15,7 @@ const base = style({
   paddingLeft: getSpace(2),
   paddingRight: getSpace(2),
   borderRadius: theme.radii.base,
+  fontFamily: theme.fonts.body,
   fontWeight: theme.fontWeights.bold,
   textTransform: 'uppercase',
   cursor: 'pointer',
