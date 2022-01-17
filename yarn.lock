@@ -2217,6 +2217,7 @@ __metadata:
     "@types/react-dom": ^17.0.11
     "@vanilla-extract/css": ^1.6.8
     "@vanilla-extract/css-utils": ^0.1.2
+    "@vanilla-extract/dynamic": ^2.0.2
     "@vanilla-extract/recipes": ^0.2.3
     "@vanilla-extract/vite-plugin": ^3.1.2
     "@vitejs/plugin-react": ^1.1.4
@@ -3816,6 +3817,15 @@ __metadata:
     escape-string-regexp: ^4.0.0
     outdent: ^0.8.0
   checksum: 1bee577c83ef11e3bdba1cb1b29fee2c07774eed3b304c4f6d674ad5ebcebe755278db5de00de0ed98463484c74982318e777acba9aed4770833e1c9383d45f3
+  languageName: node
+  linkType: hard
+
+"@vanilla-extract/dynamic@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "@vanilla-extract/dynamic@npm:2.0.2"
+  dependencies:
+    "@vanilla-extract/private": ^1.0.3
+  checksum: c6f22606bce094a5682c6d842be6d6965b9448f8973eaabdaa7a7438146458c22490c1c63345f08d2226f1c95ac20731835a5140c2c18646b2c1287b65607b84
   languageName: node
   linkType: hard
 

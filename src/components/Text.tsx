@@ -10,12 +10,12 @@ export const Text: FC<TextProps> = ({
   color = 'primary',
   weight = 'normal',
   as = 'p',
-  ...paraProps
+  ...props
 }) => {
   const Component = as;
 
   return (
-    <Component className={textStyles({ size, color, weight })} {...paraProps}>
+    <Component className={textStyles({ size, color, weight })} {...props}>
       {children}
     </Component>
   );
