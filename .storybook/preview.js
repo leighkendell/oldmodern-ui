@@ -1,5 +1,4 @@
-import 'normalize.css';
-import 'the-new-css-reset/css/reset.css';
+import 'modern-css-reset';
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },

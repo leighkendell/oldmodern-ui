@@ -21,6 +21,7 @@ const base = style({
   cursor: 'pointer',
   border: '2px solid transparent',
   textAlign: 'center',
+  background: 'transparent',
   ':hover': {
     color: theme.colors.white,
     background: theme.colors.black,
