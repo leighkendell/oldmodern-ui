@@ -1,6 +1,6 @@
 import { createTextStyle } from '@capsizecss/vanilla-extract';
 import fontMetrics from '@capsizecss/metrics/dMSans';
-import { mediaQueries, theme } from '.';
+import { mediaQueries, theme } from '../theme.css';
 import { recipe, RecipeVariants } from '@vanilla-extract/recipes';
 
 const xSmallText = createTextStyle({
@@ -39,7 +39,9 @@ const largeText = createTextStyle(
 );
 
 export const textStyles = recipe({
-  base: {},
+  base: {
+    fontFamily: theme.fonts.body,
+  },
   variants: {
     color: {
       primary: {

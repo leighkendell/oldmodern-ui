@@ -1,4 +1,3 @@
-import '../src/global.css';
 import 'normalize.css';
 import 'the-new-css-reset/css/reset.css';
 
