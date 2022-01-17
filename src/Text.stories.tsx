@@ -22,6 +22,14 @@ Medium.args = {
   size: 'medium',
 };
 
+export const MediumBold = Template.bind({});
+MediumBold.args = {
+  children:
+    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias quam consequatur quidem adipisci rem quo nesciunt temporibus neque ipsam quaerat ad voluptatem id perspiciatis similique atque, at tempore eum vel.',
+  size: 'medium',
+  weight: 'bold',
+};
+
 export const Large = Template.bind({});
 Large.args = {
   children:

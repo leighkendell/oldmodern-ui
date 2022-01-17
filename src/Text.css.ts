@@ -1,4 +1,3 @@
-import { style, styleVariants } from '@vanilla-extract/css';
 import { createTextStyle } from '@capsizecss/vanilla-extract';
 import fontMetrics from '@capsizecss/metrics/dMSans';
 import { mediaQueries, theme } from '.';
@@ -42,19 +41,33 @@ const largeText = createTextStyle(
 export const textStyles = recipe({
   base: {},
   variants: {
-    color: {},
+    color: {
+      primary: {
+        color: theme.colors.black,
+      },
+      secondary: {
+        color: theme.colors.white,
+      },
+    },
     size: {
       xSmall: [xSmallText],
       small: [smallText],
       medium: [mediumText],
       large: [largeText],
     },
-    rounded: {
-      true: { borderRadius: 999 },
+    weight: {
+      normal: {
+        fontWeight: theme.fontWeights.normal,
+      },
+      bold: {
+        fontWeight: theme.fontWeights.bold,
+      },
     },
   },
   defaultVariants: {
     size: 'medium',
+    color: 'primary',
+    weight: 'normal',
   },
 });
 
