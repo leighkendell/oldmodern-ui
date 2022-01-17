@@ -1,3 +1,16 @@
+# v0.1.12 (Mon Jan 17 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Add stack component (leigh@leighkendell.com)
+- Add heading component, update reset (leigh@leighkendell.com)
+
+#### Authors: 1
+
+- Leigh Kendell (leigh@leighkendell.com)
+
+---
+
 # v0.1.11 (Mon Jan 17 2022)
 
 #### 🐛 Bug Fix
