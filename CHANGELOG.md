@@ -1,3 +1,15 @@
+# v0.1.14 (Sat Jan 22 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Allow custom styles via className (leigh@leighkendell.com)
+
+#### Authors: 1
+
+- Leigh Kendell (leigh@leighkendell.com)
+
+---
+
 # v0.1.13 (Sat Jan 22 2022)
 
 #### ⚠️ Pushed to `main`
