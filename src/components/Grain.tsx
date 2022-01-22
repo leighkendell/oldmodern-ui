@@ -3,9 +3,9 @@ import { grainStyles } from './Grain.css';
 
 export interface GrainProps extends HTMLAttributes<HTMLDivElement> {}
 
-export const Grain: FC<GrainProps> = ({ children, ...props }) => {
+export const Grain: FC<GrainProps> = ({ children, className, ...props }) => {
   return (
-    <div className={grainStyles} {...props}>
+    <div className={`${grainStyles} ${className}`} {...props}>
       {children}
     </div>
   );

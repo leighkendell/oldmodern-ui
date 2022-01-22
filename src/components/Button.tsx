@@ -10,10 +10,14 @@ export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 export const Button: FC<ButtonProps> = ({
   children,
   variant = 'filled',
+  className,
   ...buttonProps
 }) => {
   return (
-    <button className={buttonStyles[variant]} {...buttonProps}>
+    <button
+      className={`${buttonStyles[variant]} ${className}`}
+      {...buttonProps}
+    >
       {children}
     </button>
   );

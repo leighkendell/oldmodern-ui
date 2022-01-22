@@ -19,6 +19,7 @@ export const Stack: FC<StackProps> = ({
   children,
   space = defaults,
   as = 'div',
+  className,
   ...props
 }) => {
   const Component = as;
@@ -54,7 +55,7 @@ export const Stack: FC<StackProps> = ({
 
   return (
     <Component
-      className={`${stackThemeClass} ${stackStyles}`}
+      className={`${stackThemeClass} ${stackStyles} ${className}`}
       style={assignInlineVars(stackThemeVars, {
         space: spaceVars,
       })}

@@ -11,12 +11,16 @@ export const Heading: FC<HeadingProps> = ({
   color = 'primary',
   level = 'h1',
   as,
+  className,
   ...props
 }) => {
   const Component = as || level;
 
   return (
-    <Component className={headingStyles({ color, level })} {...props}>
+    <Component
+      className={`${headingStyles({ color, level })} ${className}`}
+      {...props}
+    >
       {children}
     </Component>
   );
