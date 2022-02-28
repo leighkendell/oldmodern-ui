@@ -2,7 +2,7 @@ import { ElementType, FC, forwardRef, HTMLAttributes } from 'react';
 import { textStyles, TextVariants } from './Text.css';
 
 export type TextProps = HTMLAttributes<HTMLParagraphElement> &
-  TextVariants & { as?: ElementType<any> };
+  TextVariants & { as?: ElementType<any>; htmlFor?: string };
 
 export const Text: FC<TextProps> = forwardRef<HTMLParagraphElement, TextProps>(
   (
