@@ -8,4 +8,12 @@ export const input = style({
   fontFamily: theme.fonts.body,
   padding: `0 ${getSpace(2)}`,
   marginTop: getSpace(1),
+  width: '100%',
+  selectors: {
+    'textarea&': {
+      padding: getSpace(2),
+      height: 'auto',
+      minHeight: 200,
+    },
+  },
 });

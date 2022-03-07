@@ -12,3 +12,9 @@ export const Default = Template.bind({});
 Default.args = {
   label: 'Text input',
 };
+
+export const TextArea = Template.bind({});
+TextArea.args = {
+  label: 'Text input',
+  as: 'textarea',
+};
