@@ -1,3 +1,15 @@
+# v0.1.17 (Mon Mar 07 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Fix exports ([@leighkendell](https://github.com/leighkendell))
+
+#### Authors: 1
+
+- Leigh Kendell ([@leighkendell](https://github.com/leighkendell))
+
+---
+
 # v0.1.16 (Mon Mar 07 2022)
 
 #### ⚠️ Pushed to `main`
