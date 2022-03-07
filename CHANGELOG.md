@@ -1,3 +1,15 @@
+# v0.1.19 (Mon Mar 07 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Update peer deps ([@leighkendell](https://github.com/leighkendell))
+
+#### Authors: 1
+
+- Leigh Kendell ([@leighkendell](https://github.com/leighkendell))
+
+---
+
 # v0.1.18 (Mon Mar 07 2022)
 
 #### ⚠️ Pushed to `main`
