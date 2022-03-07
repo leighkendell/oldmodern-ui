@@ -1,3 +1,20 @@
+# v0.1.16 (Mon Mar 07 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Fix lockfile ([@leighkendell](https://github.com/leighkendell))
+- Add select component ([@leighkendell](https://github.com/leighkendell))
+- Add textarea variant for input ([@leighkendell](https://github.com/leighkendell))
+- Add button “as” prop and fix style issues ([@leighkendell](https://github.com/leighkendell))
+- Export text component ([@leighkendell](https://github.com/leighkendell))
+- Update deps, add input component ([@leighkendell](https://github.com/leighkendell))
+
+#### Authors: 1
+
+- Leigh Kendell ([@leighkendell](https://github.com/leighkendell))
+
+---
+
 # v0.1.15 (Sun Jan 23 2022)
 
 #### ⚠️ Pushed to `main`
