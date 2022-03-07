@@ -4,7 +4,8 @@ import { vanillaExtractPlugin } from '@vanilla-extract/vite-plugin';
 import path from 'path';
 import dts from 'vite-plugin-dts';
 
-const isExternal = (id: string) => !id.startsWith('.') && !path.isAbsolute(id);
+const isExternal = (id: string) =>
+  !id.startsWith('.') && !path.isAbsolute(id) && !id.includes('virtual:');
 
 // https://vitejs.dev/config/
 export default defineConfig({
