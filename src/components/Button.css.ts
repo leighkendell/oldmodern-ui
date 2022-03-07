@@ -4,13 +4,16 @@ import { createTextStyle } from '@capsizecss/vanilla-extract';
 import fontMetrics from '@capsizecss/metrics/dMSans';
 import { theme } from '../theme.css';
 
-const text = createTextStyle({
+export const text = createTextStyle({
   fontSize: 14,
   leading: 16,
   fontMetrics,
 });
 
 const base = style({
+  display: 'inline-flex',
+  alignItems: 'center',
+  appearance: 'none',
   height: 40,
   paddingLeft: getSpace(2),
   paddingRight: getSpace(2),
@@ -22,6 +25,7 @@ const base = style({
   border: '2px solid transparent',
   textAlign: 'center',
   background: 'transparent',
+  textShadow: 'none',
   ':hover': {
     color: theme.colors.white,
     background: theme.colors.black,
