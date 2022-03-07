@@ -2284,6 +2284,7 @@ __metadata:
     vite-plugin-dts: ^0.9.9
   peerDependencies:
     "@vanilla-extract/css-utils": ^0.1.2
+    nanoid: ^3.3.1
     react: ^17.0.2
   languageName: unknown
   linkType: soft

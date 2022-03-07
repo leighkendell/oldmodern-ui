@@ -14,7 +14,7 @@ export default defineConfig({
       fileName: (format) => `oldmodern-ui.${format}.js`,
     },
     rollupOptions: {
-      external: ['react/jsx-runtime', '@vanilla-extract/css-utils'],
+      external: ['react/jsx-runtime', '@vanilla-extract/css-utils', 'nanoid'],
     },
   },
 });
