@@ -25,7 +25,7 @@ const base = style({
   border: '2px solid transparent',
   textAlign: 'center',
   background: 'transparent',
-  textShadow: 'none',
+  textDecoration: 'none',
   ':hover': {
     color: theme.colors.white,
     background: theme.colors.black,
