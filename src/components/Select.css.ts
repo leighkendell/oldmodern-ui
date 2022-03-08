@@ -18,4 +18,6 @@ export const select = style({
   backgroundSize: `6px 6px,
   6px 6px`,
   backgroundRepeat: 'no-repeat',
+  color: theme.colors.black,
+  backgroundColor: theme.colors.white,
 });

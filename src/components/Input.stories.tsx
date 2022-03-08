@@ -11,6 +11,7 @@ const Template: ComponentStory<typeof Input> = (args) => <Input {...args} />;
 export const Default = Template.bind({});
 Default.args = {
   label: 'Text input',
+  type: 'date',
 };
 
 export const TextArea = Template.bind({});

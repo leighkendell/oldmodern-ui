@@ -9,6 +9,9 @@ export const input = style({
   padding: `0 ${getSpace(2)}`,
   marginTop: getSpace(1),
   width: '100%',
+  backgroundColor: theme.colors.white,
+  color: theme.colors.black,
+  WebkitAppearance: 'none',
   selectors: {
     'textarea&': {
       padding: getSpace(2),
