@@ -1,3 +1,16 @@
+# v0.1.22 (Tue Apr 05 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Update deps ([@leighkendell](https://github.com/leighkendell))
+- Update deps, fix weird safari opacity bug ([@leighkendell](https://github.com/leighkendell))
+
+#### Authors: 1
+
+- Leigh Kendell ([@leighkendell](https://github.com/leighkendell))
+
+---
+
 # v0.1.21 (Tue Mar 08 2022)
 
 #### ⚠️ Pushed to `main`
