@@ -40,7 +40,7 @@ export const buttonStyles = styleVariants({
       background: theme.colors.black,
       color: theme.colors.white,
       ':hover': {
-        opacity: 0.5,
+        filter: 'opacity(0.5)',
       },
     },
   ],
