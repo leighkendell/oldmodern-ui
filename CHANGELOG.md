@@ -1,3 +1,15 @@
+# v0.1.24 (Mon Jan 23 2023)
+
+#### ⚠️ Pushed to `main`
+
+- update vite config ([@leighkendell](https://github.com/leighkendell))
+
+#### Authors: 1
+
+- Leigh Kendell ([@leighkendell](https://github.com/leighkendell))
+
+---
+
 # v0.1.23 (Mon Jan 23 2023)
 
 #### ⚠️ Pushed to `main`
