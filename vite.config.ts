@@ -14,6 +14,7 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, 'src/index.ts'),
       name: 'oldmodern-ui',
+      formats: ['es', 'umd'],
       fileName: (format) => `oldmodern-ui.${format}.js`,
     },
     rollupOptions: {
