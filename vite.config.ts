@@ -5,7 +5,10 @@ import path from 'path';
 import dts from 'vite-plugin-dts';
 
 const isExternal = (id: string) =>
-  !id.startsWith('.') && !path.isAbsolute(id) && !id.includes('virtual:');
+  !id.startsWith('.') &&
+  !path.isAbsolute(id) &&
+  !id.includes('virtual:') &&
+  !id.includes('src');
 
 // https://vitejs.dev/config/
 export default defineConfig({
