@@ -16,7 +16,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/index.ts'),
-      name: 'oldmodern-ui',
+      name: 'OldModernUI',
       formats: ['es', 'umd'],
       fileName: (format) => `oldmodern-ui.${format}.js`,
     },
