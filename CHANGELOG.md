@@ -1,3 +1,16 @@
+# v0.1.25 (Sun Jan 29 2023)
+
+#### ⚠️ Pushed to `main`
+
+- Update lockfile ([@leighkendell](https://github.com/leighkendell))
+- Update deps and vite config ([@leighkendell](https://github.com/leighkendell))
+
+#### Authors: 1
+
+- Leigh Kendell ([@leighkendell](https://github.com/leighkendell))
+
+---
+
 # v0.1.24 (Mon Jan 23 2023)
 
 #### ⚠️ Pushed to `main`
